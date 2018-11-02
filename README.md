@@ -5,14 +5,19 @@ This repository contains machine learning models implemented in
 respective authors. To propose a model for inclusion, please submit a pull
 request.
 
+此存储库包含在其中实现的机器学习模型(TensorFlow)(https://tensorflow.org)。模型由他们维护各自的作者。若要提出一个包含模型，请提交一个pull请求.
+
 Currently, the models are compatible with TensorFlow 1.0 or later. If you are
 running TensorFlow 0.12 or earlier, please
 [upgrade your installation](https://www.tensorflow.org/install).
 
+目前，这些模型与TensorFlow 1.0或更高版本兼容。如果你是请运行张力流0.12或更早(升级安装)(https://www.tensorflow.org/install)。
 
 ## Models
 - [autoencoder](autoencoder): various autoencoders.
+- [autoencoder](自编码): 各种形式的自编码机。
 - [compression](compression): compressing and decompressing images using a pre-trained Residual GRU network.
+- [compression](编码图):根据GRU进行编码
 - [differential_privacy](differential_privacy): privacy-preserving student models from multiple teachers.
 - [domain_adaptation](domain_adaptation): domain separation networks.
 - [im2txt](im2txt): image-to-text neural network for image captioning.
